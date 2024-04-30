@@ -3,7 +3,7 @@ const data = {
         {
             id: 1,
             dataName: 'spiderman',
-            src: '../assets/spiderman (1).jpg',
+            src: './assets/spiderman.1.jpg',
             title: 'Spiderman',
         },
         {
@@ -15,7 +15,7 @@ const data = {
         {
             id: 3,
             dataName: 'ironman',
-            src: '../assets/ironman.jpg',
+            src: './assets/ironman.jpg',
             title: 'ironman',
         },
         {
