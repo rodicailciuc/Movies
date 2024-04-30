@@ -25,7 +25,7 @@
 
 ## Screenshots
 
-![Example screenshot](../Movies/assets/Capture%20d’écran%202024-04-30%20105034.png)
+![Example screenshot](../Movies/assets/screenshot.png)
 
 ## Technologies
 
