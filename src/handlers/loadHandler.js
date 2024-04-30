@@ -1,13 +1,17 @@
 import data from '../data.js';
 import dom from '../dom.js';
-import sortFlights from '../utils/sortFlights.js';
-import createFlight from '../components/createFlight.js';
+import createImage from '../components/createImage.js';
 
 const loadHandler = () => {
-    const organizedFlights = sortFlights(data);
-    organizedFlights.forEach((flight) => {
-        const flightDom = createFlight(flight);
-        dom.parent.appendChild(flightDom);
+    data.images.forEach((image) => {
+        const movieDom = createImage(image);
+        dom.images.append(movieDom);
+
+        data.posters.push({
+            id: image.id,
+            dom: movieDom,
+            title: image.title,
+        });
     });
 };
 

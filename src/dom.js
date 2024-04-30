@@ -1,5 +1,7 @@
 const dom = {
-    parent: document.getElementById('parent'),
+    input: document.getElementById('input'),
+    images: document.querySelector('.images'),
+    messages: document.createElement('div'),
 };
 
 export default dom;

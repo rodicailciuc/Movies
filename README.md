@@ -1,17 +1,22 @@
-# Image gallery
+# Movies gallery
 
-> A simple
+> The Poster Image Search App is a web application that allows users to search
+> for high-quality poster images quickly and efficiently. Users can find
+> inspiration, explore different styles, and discover a variety of poster
+> designs for their projects.
 
 ## Table of contents
 
-- [General info](#general-info)
-- [Screenshots](#screenshots)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Features](#features)
-- [Status](#status)
-- [Inspiration](#inspiration)
-- [Contact](#contact)
+- [Movies gallery](#movies-gallery)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Code Examples](#code-examples)
+  - [Status](#status)
+  - [Inspiration](#inspiration)
+  - [Contact](#contact)
 
 ## General info
 
@@ -20,7 +25,7 @@
 
 ## Screenshots
 
-![Example screenshot]()
+![Example screenshot](../Movies/assets/Capture%20d’écran%202024-04-30%20105034.png)
 
 ## Technologies
 
@@ -36,21 +41,13 @@ clone the repo and start using the stop watch.
 ## Code Examples
 
 ```js
-
+const keyupEvent = () => {
+	dom.input.addEventListener('keyup', () => {
+		const value = dom.input.value;
+		searchImage(value);
+	});
+};
 ```
-
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
 
 ## Status
 
@@ -59,3 +56,5 @@ Project is: _in progress_
 ## Inspiration
 
 ## Contact
+
+- [Rodica](https://github.com/rodicailciuc)
